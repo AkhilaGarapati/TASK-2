@@ -1,0 +1,31 @@
+Q1)List 5 difference between Browser JS(console) v Nodejs
+Ans: Node JS-1)Node.js javascript code gets executed outside the browser as it is an interpreter as well as an environment for running javascript and used for server-side applications.(Browser.js is used for frontend)
+             2)Node.js has full system access i.e can read and write directly to the file system like any other application
+             3)In Node.js many objects are missing like “window”,“location”and “document”. 
+             4)Node.js runs in a V8 engine which is mainly used by google chrome.
+             5)Node.js is headless i.e without any GUI 
+
+     Browser JS-1)Browser.js is mainly used for client-side applications like validations on a web page or dynamic page display and as the name suggests it gets executed in the browser only(Node.jS is used for Backend).
+               2)Browser.js sandboxed for the safety purposes and have access limited to the browser. Hence it cannot write a code for a software.
+               3)Browser.JS misses global” and “require” Objects.
+               4)Browser.js runs any engine like Spider monkey (Firefox), JavaScript Core (Safari), V8 (Google Chrome)
+               5)Bowsers are not headless i.e they contain GUI
+
+Q2)watch & summary 5 points 
+Ans: 1)The flow of Rendering consists of
+       Parse HTML and Parse CSS------>Render Tree------->Layout------>Paint 
+     2)Parsing isn't Straight forward and It can be Halted 
+     3)Render Tree is combination of Two Object modules[DOM + CSSOM]
+     4)Layout is a Recursive Process where it figures where all tags or flow to be fitted in a Render tree
+     5)Paint setup will take the Layout from Render tree and gives Visual output which is an Incremental process and consists of 12 phase.
+
+Q3)Execute the below code and write your description in txt file
+1)typeof(1)- number
+2)typeof(1.1)- number
+3)typeof('1.1')- string
+4)typeof(true)- boolean
+5)typeof(null)- object
+6)typeof(undefined)- undefined
+7)typeof([])- object
+8)typeof({})- object
+9)typeof(NaN)- number
